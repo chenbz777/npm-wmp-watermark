@@ -1,0 +1,4 @@
+<view>
+    <image src="{{lazyImageUrl}}" alt="" mode="widthFix" class="{{imageId}}" style="width: 100%;" wx:if="{{isLoading}}"></image>
+    <canvas class="{{canvasId}}" canvas-id="{{canvasId}}" type="2d" style="width: {{canvasWidth}}px; height: {{canvasHeight}}px;" bindtap="previewCanvas"></canvas>
+</view>
